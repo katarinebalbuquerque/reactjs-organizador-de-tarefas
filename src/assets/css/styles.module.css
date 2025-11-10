@@ -1,0 +1,176 @@
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    width: Calc(100% - 20px);
+    height: 100px;
+    padding: 0   10px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav img {
+    width: 42px;
+    height: auto;
+}
+
+/* FOOTER */
+
+.footer {
+    width: Calc(100% - 20px);
+    height: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e65454;
+    position: fixed;
+    bottom: 0;    
+}
+
+.footer .description {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .description h6 {
+    color: #FFF;
+}
+
+/* HOME */
+
+.home {
+    width: Calc(100% - 20px);
+    height: 70vh;
+    padding: 10px;
+}
+
+.content {
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;    
+}
+
+.content .category {
+    width: 280px;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.content .category h6 {
+    margin: 5px 0;
+}
+
+.content .list {
+    width: 280px;
+    height: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+.content .list img {
+    position: relative;
+    left: 32%;
+}
+
+.content .list h5 {
+    text-align: center;
+}
+
+.content .list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.content .list .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .list .inputs input {
+    width: 50%;
+    height: auto;
+    border: 0 none;
+}
+
+.content .list .inputs select {
+    width: 30%;
+    height: auto;
+    border: 0 none;
+}
+
+.content .list .inputs input:focus,
+.content .list .inputs select:focus,
+.content .list .inputs button:focus {
+    outline: 0 none;
+    border: 0 none;
+}
+
+ .content .list .inputs button {
+    border: 0 none;
+    color: #FFF;
+    font-weight: 700;
+    margin: 5px;
+    background-color: #e65454;
+    cursor:pointer;
+}
+
+.content .list .details {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.content .list .details button {
+    border: 0 none;
+    border-radius: 50%;
+    color: #FFF;
+    font-weight: 700;
+    background-color: #faa1a1;
+    cursor: pointer;
+}
+
+.content .list .details button:focus {
+    outline: 0 none;
+    border: 0 none;
+    border-radius: 50%;
+}
+
+.content .list .details .button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
