@@ -2,8 +2,8 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Container from "../../components/Container/Container";
 import styles from "../../assets/css/styles.module.css";
-import List from "../../components/list/List";
-import Category from "../../components/category/Category";
+import List from "../../components/List/List";
+import Category from "../../components/Category/Category";
 import { useState } from "react";
 import Context from "../../context/Contex";
 
