@@ -4,7 +4,7 @@
 ![Organizador de Tarefas](image.png)
 <br/>
 
-Acesse o projeto: [Organizador de Tarefas]()<br/>
+Acesse o projeto: [Organizador de Tarefas](https://organizador-de-tarefas-one.vercel.app/)<br/>
 
 ### 1. Sobre o projeto
 
